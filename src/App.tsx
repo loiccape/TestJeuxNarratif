@@ -5,8 +5,8 @@ import { scenes } from "./data/scenes"
 import { recaps } from "./data/recaps"
 import { GameState, initialState } from "./class/GameState"
 import { TomLucasTv } from "./data/alt/acteIII/TomLucasTv"
-import { scenesTomBois } from "./data/alt/acteIITomBois/scenesTombois"
-import { scenesTomBoisCachette } from "./data/alt/acteIITomBois/scenesTomboiscachette"
+import { scenesTomBois } from "./data/alt/acteIITomBois/scenesTomBois"
+import { scenesTomBoisCachette } from "./data/alt/acteIITomBois/scenesTomBoisCachette"
 import { acte3TomTvSeul } from "./data/alt/acteIII/TomTvSeul"
 
 const toutesLesScenes = [...scenes, ...scenesTomBois, ...scenesTomBoisCachette, ...acte3TomTvSeul, ...TomLucasTv]
