@@ -1,0 +1,88 @@
+/* ── Reset & base ── */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #d4cfc8;
+  font-family: 'Georgia', serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+}
+
+/* ── Conteneur principal ── */
+.scene {
+  max-width: 680px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* ── Lignes de texte ── */
+.lines {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ── Narration ── */
+.narration {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: #d4cfc8;
+  text-align: justify;
+}
+
+/* ── Dialogue ── */
+.dialogue {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  padding-left: 20px;
+  border-left: 2px solid #4a4a4a;
+  color: #b8b0a4;
+}
+
+.personnage {
+  font-weight: bold;
+  color: #c9a96e;
+  font-style: normal;
+}
+
+.texte {
+  font-style: italic;
+  color: #b8b0a4;
+}
+
+/* ── Choix ── */
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 10px;
+  border-top: 1px solid #2a2a2a;
+}
+
+.choices button {
+  background: transparent;
+  border: 1px solid #3a3a3a;
+  color: #c9a96e;
+  font-family: 'Georgia', serif;
+  font-size: 0.95rem;
+  padding: 14px 20px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 2px;
+}
+
+.choices button:hover {
+  background-color: #1a1a1a;
+  border-color: #c9a96e;
+  padding-left: 28px;
+}
